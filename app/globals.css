@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.form{
+    @apply  flex flex-col gap-3 justify-center  items-center p-3
+}
+.fl {
+    @apply flex flex-row gap-3
+}
+
+.lab{
+    @apply text-yellow-200 text-[16px]
+}
+.inp{
+    @apply px-2 w-64 h-9 rounded-lg
+}

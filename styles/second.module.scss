@@ -1,0 +1,14 @@
+$private-color:rgb(232, 240, 166);
+
+.second{
+    color:$private-color;
+};
+
+
+
+@mixin important-text {
+   background-color:lightgrey;
+   width:800px;
+   
+  };
+ 
